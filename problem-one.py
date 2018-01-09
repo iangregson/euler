@@ -5,11 +5,7 @@ def main():
         if i % 3 == 0 or i % 5 == 0:
             numbers.append(i)
 
-    sum = 0
-    for number in numbers:
-        sum += number
-
-    print(sum)
+    print(sum(numbers))
 
 if __name__ == "__main__":
     main()
